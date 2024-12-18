@@ -1,0 +1,32 @@
+body {
+    font-family: Verdana, sans-serif;
+    /* background-color: aquamarine; */
+    /* background-color: #7FFFD4; */
+    background-color: rgb(145, 18, 107);
+    /* background-color: hsl(160, 100%, 75%); */
+}
+
+
+article,
+footer {
+    /* background-color: magenta; */
+    /* background-color: hsla(260, 30%, 70%, 0.5); */
+    background-color: rgb(255, 153, 230);
+      /*  background-color: #7FFFD4; */
+}
+ 
+section {
+    display: flex;
+    gap: 8px;
+    margin: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
